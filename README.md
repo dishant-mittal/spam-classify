@@ -11,11 +11,6 @@ As an end result, the client can provide the device-id for a user and search for
 
 Dependencies: Python, Java, Scala, Apache Spark, Dygraphs
 
-
-
-![Overview](/Overview.PNG)
-
-
 Notes:
 python shows error while importing the pyspark library directly, however , the program will still run.
 This is just because these modules are not in the typical python interpreter but spark's python directory
