@@ -1,0 +1,699 @@
+18/05/28 22:49:00.096 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/28 22:49:00.097 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/28 22:49:00.414 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/28 22:49:00.938 Thread-4 INFO log: Logging initialized @1413ms
+18/05/28 22:49:00.992 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/28 22:49:01.004 Thread-4 INFO Server: Started @1480ms
+18/05/28 22:49:01.016 Thread-4 INFO AbstractConnector: Started ServerConnector@4ec090dd{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/28 22:49:01.034 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@37d2f42{/jobs,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.035 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5e9706ea{/jobs/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.035 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@743a0804{/jobs/job,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.037 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4d74bf85{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.037 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2b324097{/stages,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.038 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@f6c07dd{/stages/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.038 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7bdaa8d2{/stages/stage,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.040 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4508ccc7{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.040 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6b3a608c{/stages/pool,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.041 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2d036230{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.042 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c929b4f{/storage,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.042 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2fff14ee{/storage/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.043 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@17f93f9d{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.044 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@215dddb0{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.044 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@192d7237{/environment,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.045 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4e224d98{/environment/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.045 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10799616{/executors,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.046 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5f0679f4{/executors/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.047 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2dc814e9{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.047 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@71dac245{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.052 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2dcf334e{/static,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.052 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@26ace63c{/,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.053 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7aa57326{/api,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.054 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@615cf735{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.054 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@44e8219f{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.291 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5fc8a9a7{/metrics/json,null,AVAILABLE,@Spark}
+18/05/28 22:49:01.385 Thread-1 INFO AbstractConnector: Stopped Spark@4ec090dd{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/28 22:54:26.459 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/28 22:54:26.460 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/28 22:54:26.763 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/28 22:54:27.253 Thread-4 INFO log: Logging initialized @1325ms
+18/05/28 22:54:27.309 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/28 22:54:27.325 Thread-4 INFO Server: Started @1399ms
+18/05/28 22:54:27.338 Thread-4 INFO AbstractConnector: Started ServerConnector@7c5a1f88{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/28 22:54:27.356 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@59f4b93e{/jobs,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.357 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@249bb759{/jobs/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.357 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@327e0eaf{/jobs/job,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.358 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2bb0a1cc{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.359 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@52e8fa9c{/stages,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.359 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10a18d18{/stages/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.360 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3107057b{/stages/stage,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.361 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@16ebcc20{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.362 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f4e3f5b{/stages/pool,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.363 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3b9f8538{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.363 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@43102ca0{/storage,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.364 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@bd2722e{/storage/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.364 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@658830e8{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.365 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@22f9cf24{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.366 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@60ce82f7{/environment,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.366 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7895dfc2{/environment/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.367 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5cbebf48{/executors,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.368 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3052cb14{/executors/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.369 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@241f3ed3{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.369 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72229e5d{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.374 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b4f2bae{/static,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.375 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c853fb8{/,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.376 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@26b37716{/api,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.376 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3b7e9704{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.377 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@403aa845{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/28 22:54:27.607 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77e4f643{/metrics/json,null,AVAILABLE,@Spark}
+18/05/28 23:11:59.711 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/28 23:11:59.713 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/28 23:12:00.227 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/28 23:12:01.046 Thread-4 INFO log: Logging initialized @2265ms
+18/05/28 23:12:01.113 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/28 23:12:01.132 Thread-4 INFO Server: Started @2352ms
+18/05/28 23:12:01.146 Thread-4 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+18/05/28 23:12:01.152 Thread-4 INFO AbstractConnector: Started ServerConnector@fdd4a94{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/05/28 23:12:01.180 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6db05d76{/jobs,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.181 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72e439c9{/jobs/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.182 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@42bc8e71{/jobs/job,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.183 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1c327cac{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.184 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4fcb3492{/stages,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.185 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6922f41c{/stages/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.186 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@27a88d36{/stages/stage,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.188 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@40f51d82{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.189 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2357e997{/stages/pool,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.190 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@99e5454{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.190 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7b87faf8{/storage,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.191 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1376f107{/storage/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.192 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@ff1b9af{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.193 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@74b660f1{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.194 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@302214a5{/environment,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.195 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1478256f{/environment/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.196 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1646ca8e{/executors,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.198 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@51b0815f{/executors/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.199 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@711720f0{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.199 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@241130e0{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.206 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4a38c56{/static,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.207 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4831ea8f{/,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.209 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7a67ac86{/api,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.210 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a5bfc35{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.211 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5845f4d7{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/28 23:12:01.648 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@79babf5{/metrics/json,null,AVAILABLE,@Spark}
+18/05/28 23:17:41.136 Thread-1 INFO AbstractConnector: Stopped Spark@fdd4a94{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/05/28 23:21:52.548 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/28 23:21:52.549 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/28 23:21:53.043 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/28 23:21:53.871 Thread-4 INFO log: Logging initialized @2248ms
+18/05/28 23:21:53.950 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/28 23:21:53.966 Thread-4 INFO Server: Started @2344ms
+18/05/28 23:21:53.980 Thread-4 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+18/05/28 23:21:53.989 Thread-4 INFO AbstractConnector: Started ServerConnector@7c5a1f88{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/05/28 23:21:54.023 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2e2ec61b{/jobs,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.024 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@63e85dfa{/jobs/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.025 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2bb0a1cc{/jobs/job,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.027 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10a18d18{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.028 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3107057b{/stages,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.029 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f176c56{/stages/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.030 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@a3e4932{/stages/stage,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.033 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3b9f8538{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.034 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@43102ca0{/stages/pool,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.035 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@bd2722e{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.036 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@658830e8{/storage,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.036 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@22f9cf24{/storage/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.037 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@60ce82f7{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.041 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7895dfc2{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.042 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5cbebf48{/environment,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.043 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3052cb14{/environment/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.044 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@241f3ed3{/executors,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.044 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72229e5d{/executors/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.045 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b4f2bae{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.046 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7d6341b8{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.053 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@20570161{/static,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.054 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6dc2cfa9{/,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.056 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3b5cc2d{/api,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.057 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6dc3c0cb{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.057 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2917f6d4{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/28 23:21:54.481 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@54a3cbbc{/metrics/json,null,AVAILABLE,@Spark}
+18/05/28 23:27:22.038 Thread-1 INFO AbstractConnector: Stopped Spark@7c5a1f88{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/05/28 23:48:19.064 Thread-1 INFO AbstractConnector: Stopped Spark@7c5a1f88{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/28 23:48:19.151 Executor task launch worker for task 12 ERROR Executor: Exception in task 0.0 in stage 2.0 (TID 12)
+org.apache.spark.SparkException: Python worker exited unexpectedly (crashed)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:333)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:322)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:443)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:421)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:252)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1126)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1132)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:408)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:125)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:428)
+	... 14 more
+18/05/30 15:26:03.969 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/30 15:26:04.031 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/30 15:26:05.911 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/30 15:26:08.686 Thread-4 INFO log: Logging initialized @11281ms
+18/05/30 15:26:08.769 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/30 15:26:08.801 Thread-4 INFO Server: Started @11397ms
+18/05/30 15:26:08.837 Thread-4 INFO AbstractConnector: Started ServerConnector@e24d49b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/30 15:26:08.941 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5fb0bfce{/jobs,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.942 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1860c4b5{/jobs/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.942 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@239959f0{/jobs/job,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.944 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6854fd59{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.944 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@768fc98a{/stages,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.945 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f304872{/stages/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.945 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d47ee38{/stages/stage,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.947 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3713885c{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.947 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@65f786a8{/stages/pool,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.948 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@74976372{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.949 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@371c5ba7{/storage,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.949 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1c666470{/storage/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.950 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@457d6392{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.951 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@a3e04bc{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.951 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5f2aa73f{/environment,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.952 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@70401d4e{/environment/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.953 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5e0f9127{/executors,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.953 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@24ee75be{/executors/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.954 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2e773d43{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.955 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5e2defae{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.959 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c09cbe5{/static,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.960 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@132bafbf{/,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.961 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@588b28c2{/api,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.962 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@205f7c35{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/30 15:26:08.962 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@21c61908{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/30 15:26:09.733 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@449ba426{/metrics/json,null,AVAILABLE,@Spark}
+18/05/30 15:26:09.990 Thread-1 INFO AbstractConnector: Stopped Spark@e24d49b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/30 15:27:49.994 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/30 15:27:49.994 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/30 15:27:50.320 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/30 15:27:50.805 Thread-4 INFO log: Logging initialized @1351ms
+18/05/30 15:27:50.860 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/30 15:27:50.874 Thread-4 INFO Server: Started @1421ms
+18/05/30 15:27:50.886 Thread-4 INFO AbstractConnector: Started ServerConnector@3f15eb34{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/30 15:27:50.905 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1b064424{/jobs,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.905 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4e7ca562{/jobs/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.906 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@703b7bcd{/jobs/job,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.907 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b3832cb{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.908 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@70c4cb7b{/stages,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.908 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b8a33bd{/stages/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.909 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4220406b{/stages/stage,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.910 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4c0d659{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.911 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4423edb2{/stages/pool,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.911 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@382f6954{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.912 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5e4bd70e{/storage,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.913 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5c3ba080{/storage/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.913 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7ae88c8{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.914 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@440824a0{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.915 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@447b6888{/environment,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.915 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4545ff27{/environment/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.916 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@36ded78f{/executors,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.916 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3376d8d0{/executors/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.917 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2cd6d91e{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.918 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4600a764{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.922 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a26284{/static,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.923 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2042e95d{/,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.924 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@47468a37{/api,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.925 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5cf96425{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/30 15:27:50.925 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@83719f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/30 15:27:51.161 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1c653258{/metrics/json,null,AVAILABLE,@Spark}
+18/05/30 15:32:08.189 Thread-1 INFO AbstractConnector: Stopped Spark@3f15eb34{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/31 14:26:09.264 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/31 14:26:09.296 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/31 14:26:10.352 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/31 14:26:12.370 Thread-4 INFO log: Logging initialized @7129ms
+18/05/31 14:26:12.456 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/31 14:26:12.466 Thread-4 INFO Server: Started @7226ms
+18/05/31 14:26:12.523 Thread-4 INFO AbstractConnector: Started ServerConnector@3728dc9f{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/31 14:26:12.544 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4ac24014{/jobs,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.545 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@343f8fbd{/jobs/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.545 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b7e4e8d{/jobs/job,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.547 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6ef1c47c{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.547 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@26fbfc78{/stages,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.548 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@fd8c40c{/stages/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.548 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@946a7ed{/stages/stage,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.550 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5924275d{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.550 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@65619a5b{/stages/pool,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.551 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2eda5ed2{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.551 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@153b50af{/storage,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.552 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d5d839a{/storage/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.553 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4877f28{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.553 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@78d79da4{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.554 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@37a60439{/environment,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.554 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@36660004{/environment/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.555 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@92747df{/executors,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.556 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4dd9c1e2{/executors/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.556 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4ad993ac{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.557 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4cb9dcd3{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.563 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7f937324{/static,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.564 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@45e1deb9{/,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.566 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77bf5304{/api,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.569 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@40c35153{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/31 14:26:12.570 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5979564a{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/31 14:26:13.308 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4c373ce{/metrics/json,null,AVAILABLE,@Spark}
+18/05/31 14:30:07.343 Thread-1 INFO AbstractConnector: Stopped Spark@3728dc9f{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/31 19:36:40.778 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/31 19:36:40.779 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/31 19:36:41.093 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/31 19:36:41.563 Thread-4 INFO log: Logging initialized @1356ms
+18/05/31 19:36:41.607 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/31 19:36:41.622 Thread-4 INFO Server: Started @1417ms
+18/05/31 19:36:41.636 Thread-4 INFO AbstractConnector: Started ServerConnector@3f15eb34{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/31 19:36:41.654 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@37d2f42{/jobs,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.655 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5e9706ea{/jobs/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.655 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@743a0804{/jobs/job,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.656 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4d74bf85{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.657 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2b324097{/stages,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.657 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@f6c07dd{/stages/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.658 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7bdaa8d2{/stages/stage,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.659 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4508ccc7{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.659 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6b3a608c{/stages/pool,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.659 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2d036230{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.660 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c929b4f{/storage,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.661 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2fff14ee{/storage/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.661 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@17f93f9d{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.662 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@215dddb0{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.663 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@192d7237{/environment,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.663 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4e224d98{/environment/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.664 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10799616{/executors,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.664 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5f0679f4{/executors/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.665 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2dc814e9{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.666 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@71dac245{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.671 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2dcf334e{/static,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.671 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@26ace63c{/,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.673 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7aa57326{/api,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.673 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@615cf735{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.674 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@44e8219f{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/31 19:36:41.962 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5fc8a9a7{/metrics/json,null,AVAILABLE,@Spark}
+18/05/31 19:36:59.422 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/05/31 19:36:59.423 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/05/31 19:36:59.774 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/05/31 19:37:00.300 Thread-4 INFO log: Logging initialized @1467ms
+18/05/31 19:37:00.357 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/05/31 19:37:00.371 Thread-4 INFO Server: Started @1540ms
+18/05/31 19:37:00.381 Thread-4 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+18/05/31 19:37:00.384 Thread-4 INFO AbstractConnector: Started ServerConnector@7cafe3b0{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/05/31 19:37:00.404 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2f9f054a{/jobs,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.405 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6597b795{/jobs/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.406 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72e439c9{/jobs/job,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.407 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@44c140be{/jobs/job/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.407 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1c327cac{/stages,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.408 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4fcb3492{/stages/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.408 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6922f41c{/stages/stage,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.410 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3e098c4b{/stages/stage/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.410 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@40f51d82{/stages/pool,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.411 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2357e997{/stages/pool/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.412 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@99e5454{/storage,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.413 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7b87faf8{/storage/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.414 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1376f107{/storage/rdd,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.415 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@ff1b9af{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.415 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@74b660f1{/environment,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.416 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@302214a5{/environment/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.417 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1478256f{/executors,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.418 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1646ca8e{/executors/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.418 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@51b0815f{/executors/threadDump,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.419 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@711720f0{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.424 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@241130e0{/static,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.425 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3adcfb99{/,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.426 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4831ea8f{/api,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.427 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2d1f768c{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.427 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a5bfc35{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/05/31 19:37:00.698 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1367e011{/metrics/json,null,AVAILABLE,@Spark}
+18/05/31 21:02:29.201 Thread-1 INFO AbstractConnector: Stopped Spark@7cafe3b0{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/05/31 21:02:29.206 dispatcher-event-loop-0 WARN HeartbeatReceiver: Removing executor driver with no recent heartbeats: 5128474 ms exceeds timeout 120000 ms
+18/05/31 21:02:29.207 Thread-1 INFO AbstractConnector: Stopped Spark@3f15eb34{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/05/31 21:02:29.212 dispatcher-event-loop-0 ERROR TaskSchedulerImpl: Lost executor driver on localhost: Executor heartbeat timed out after 5128474 ms
+18/05/31 21:02:29.250 dispatcher-event-loop-0 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0, localhost, executor driver): ExecutorLostFailure (executor driver exited caused by one of the running tasks) Reason: Executor heartbeat timed out after 5128474 ms
+18/05/31 21:02:29.251 dispatcher-event-loop-0 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+18/05/31 21:02:29.269 Executor task launch worker for task 0 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:431)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:421)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:252)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:408)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:148)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+18/05/31 21:02:29.283 kill-executor-thread WARN SparkContext: Killing executors is not supported by current scheduler.
+18/05/31 21:02:29.302 Executor task launch worker for task 0 ERROR PythonRunner: Python worker exited unexpectedly (crashed)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:431)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:421)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:252)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:408)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:148)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+18/05/31 21:02:29.305 Executor task launch worker for task 0 ERROR PythonRunner: This may have been caused by a prior exception:
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:115)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.apache.spark.api.python.PythonRDD$.writeUTF(PythonRDD.scala:374)
+	at org.apache.spark.api.python.PythonRDD$.org$apache$spark$api$python$PythonRDD$$write$1(PythonRDD.scala:194)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:407)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:215)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1988)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:170)
+18/05/31 21:02:29.317 Executor task launch worker for task 0 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:115)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.apache.spark.api.python.PythonRDD$.writeUTF(PythonRDD.scala:374)
+	at org.apache.spark.api.python.PythonRDD$.org$apache$spark$api$python$PythonRDD$$write$1(PythonRDD.scala:194)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:407)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:215)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1988)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:170)
+18/06/01 15:26:14.839 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/06/01 15:26:14.840 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/06/01 15:26:15.699 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/06/01 15:26:17.896 Thread-4 INFO log: Logging initialized @7262ms
+18/06/01 15:26:18.000 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/06/01 15:26:18.011 Thread-4 INFO Server: Started @7377ms
+18/06/01 15:26:18.121 Thread-4 INFO AbstractConnector: Started ServerConnector@3728dc9f{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/06/01 15:26:18.144 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4ac24014{/jobs,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.144 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@343f8fbd{/jobs/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.145 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b7e4e8d{/jobs/job,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.146 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6ef1c47c{/jobs/job/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.147 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@26fbfc78{/stages,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.147 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@fd8c40c{/stages/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.148 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@946a7ed{/stages/stage,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.149 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5924275d{/stages/stage/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.150 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@65619a5b{/stages/pool,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.151 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2eda5ed2{/stages/pool/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.152 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@153b50af{/storage,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.153 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d5d839a{/storage/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.153 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4877f28{/storage/rdd,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.154 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@78d79da4{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.155 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@37a60439{/environment,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.155 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@36660004{/environment/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.156 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@92747df{/executors,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.157 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4dd9c1e2{/executors/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.157 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4ad993ac{/executors/threadDump,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.158 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4cb9dcd3{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.165 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7f937324{/static,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.165 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@45e1deb9{/,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.167 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77bf5304{/api,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.167 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@40c35153{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/06/01 15:26:18.168 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5979564a{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/06/01 15:26:19.015 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4c373ce{/metrics/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:37.998 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/06/01 15:26:37.999 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/06/01 15:26:38.330 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/06/01 15:26:38.908 Thread-4 INFO log: Logging initialized @1506ms
+18/06/01 15:26:38.955 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/06/01 15:26:38.982 Thread-4 INFO Server: Started @1582ms
+18/06/01 15:26:38.993 Thread-4 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+18/06/01 15:26:38.997 Thread-4 INFO AbstractConnector: Started ServerConnector@621b9a85{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/06/01 15:26:39.016 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@38d7d83e{/jobs,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.017 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4d74bf85{/jobs/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.018 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2b324097{/jobs/job,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.019 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7bdaa8d2{/jobs/job/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.020 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@13bab8bb{/stages,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.021 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2ab564a3{/stages/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.021 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4508ccc7{/stages/stage,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.022 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c929b4f{/stages/stage/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.024 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2fff14ee{/stages/pool,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.024 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@17f93f9d{/stages/pool/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.025 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@215dddb0{/storage,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.025 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@192d7237{/storage/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.026 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4e224d98{/storage/rdd,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.027 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10799616{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.028 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5f0679f4{/environment,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.029 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2dc814e9{/environment/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.030 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@71dac245{/executors,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.030 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2dcf334e{/executors/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.031 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@41ea26da{/executors/threadDump,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.032 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c680d52{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.037 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@b872a70{/static,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.038 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@716d1b51{/,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.039 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@30b18e46{/api,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.040 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@61397b90{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.041 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@67dacddd{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/06/01 15:26:39.312 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@c725e50{/metrics/json,null,AVAILABLE,@Spark}
+18/06/01 15:30:56.529 Thread-1 INFO AbstractConnector: Stopped Spark@621b9a85{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/06/01 15:59:16.197 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/06/01 15:59:16.198 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/06/01 15:59:16.596 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/06/01 15:59:17.178 Thread-4 INFO log: Logging initialized @1625ms
+18/06/01 15:59:17.256 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/06/01 15:59:17.279 Thread-4 INFO Server: Started @1726ms
+18/06/01 15:59:17.292 Thread-4 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+18/06/01 15:59:17.298 Thread-4 INFO AbstractConnector: Started ServerConnector@6d479afc{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/06/01 15:59:17.322 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6db05d76{/jobs,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.322 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72e439c9{/jobs/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.323 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@42bc8e71{/jobs/job,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.324 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1c327cac{/jobs/job/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.325 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4fcb3492{/stages,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.326 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6922f41c{/stages/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.326 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@27a88d36{/stages/stage,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.328 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@40f51d82{/stages/stage/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.329 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2357e997{/stages/pool,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.330 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@99e5454{/stages/pool/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.330 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7b87faf8{/storage,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.337 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1376f107{/storage/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.341 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@ff1b9af{/storage/rdd,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.347 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@74b660f1{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.349 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@302214a5{/environment,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.351 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1478256f{/environment/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.353 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1646ca8e{/executors,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.355 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@51b0815f{/executors/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.358 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@711720f0{/executors/threadDump,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.359 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@241130e0{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.367 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4a38c56{/static,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.369 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4831ea8f{/,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.372 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7a67ac86{/api,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.373 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6a5bfc35{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.379 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5845f4d7{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/06/01 15:59:17.742 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3af57094{/metrics/json,null,AVAILABLE,@Spark}
+18/06/01 16:02:31.991 Executor task launch worker for task 19 ERROR Executor: Exception in task 0.0 in stage 2.0 (TID 19)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 229, in main
+    process()
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 224, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/usr/local/spark/python/pyspark/rdd.py", line 2438, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/usr/local/spark/python/pyspark/rdd.py", line 2438, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/usr/local/spark/python/pyspark/rdd.py", line 362, in func
+    return f(iterator)
+  File "/usr/local/spark/python/pyspark/rdd.py", line 1857, in combineLocally
+    merger.mergeValues(iterator)
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 236, in mergeValues
+    for k, v in iterator:
+  File "segregate_motion.py", line 120, in write_data
+    time_motion_list = map(list, zip(*time_motion_list))  # hack to accomplish this: [(1,2,3),(4,5,6)] ->[[1,4],[2,5],[3,6]]
+TypeError: zip argument #1 must support iteration
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:298)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:438)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:421)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:252)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1126)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1132)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:408)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:125)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+18/06/01 16:02:32.049 task-result-getter-3 WARN TaskSetManager: Lost task 0.0 in stage 2.0 (TID 19, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 229, in main
+    process()
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/worker.py", line 224, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/usr/local/spark/python/pyspark/rdd.py", line 2438, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/usr/local/spark/python/pyspark/rdd.py", line 2438, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/usr/local/spark/python/pyspark/rdd.py", line 362, in func
+    return f(iterator)
+  File "/usr/local/spark/python/pyspark/rdd.py", line 1857, in combineLocally
+    merger.mergeValues(iterator)
+  File "/usr/local/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 236, in mergeValues
+    for k, v in iterator:
+  File "segregate_motion.py", line 120, in write_data
+    time_motion_list = map(list, zip(*time_motion_list))  # hack to accomplish this: [(1,2,3),(4,5,6)] ->[[1,4],[2,5],[3,6]]
+TypeError: zip argument #1 must support iteration
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:298)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:438)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:421)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:252)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1126)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1132)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:408)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:125)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+18/06/01 16:02:32.050 task-result-getter-3 ERROR TaskSetManager: Task 0 in stage 2.0 failed 1 times; aborting job
+18/06/01 16:02:32.138 Thread-1 INFO AbstractConnector: Stopped Spark@6d479afc{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/06/01 16:24:18.659 main WARN Utils: Your hostname, dishant-HP-Pavilion-Notebook resolves to a loopback address: 127.0.1.1; using 10.20.164.29 instead (on interface wlo1)
+18/06/01 16:24:18.660 main WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/06/01 16:24:19.002 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/06/01 16:24:19.527 Thread-4 INFO log: Logging initialized @1483ms
+18/06/01 16:24:19.576 Thread-4 INFO Server: jetty-9.3.z-SNAPSHOT
+18/06/01 16:24:19.586 Thread-4 INFO Server: Started @1542ms
+18/06/01 16:24:19.595 Thread-4 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+18/06/01 16:24:19.599 Thread-4 INFO AbstractConnector: Started ServerConnector@2d6f1f64{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/06/01 16:24:19.618 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7817154d{/jobs,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.618 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6d6ec75a{/jobs/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.619 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@173cf400{/jobs/job,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.620 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3c7f4d2{/jobs/job/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.621 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1808b7e7{/stages,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.621 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6864cc12{/stages/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.622 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@74dbac93{/stages/stage,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.623 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5ba6cc35{/stages/stage/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.624 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72304ce6{/stages/pool,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.625 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@ff63e59{/stages/pool/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.626 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7eddd3c7{/storage,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.627 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@13776f4d{/storage/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.628 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@63d056b9{/storage/rdd,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.631 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5deaa86c{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.632 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4db90bfd{/environment,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.633 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@659c0800{/environment/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.633 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@418ff94{/executors,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.634 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@cb98eb3{/executors/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.634 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@9da9a3a{/executors/threadDump,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.635 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@c834f09{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.640 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4f24e552{/static,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.640 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@20e1e652{/,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.642 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@150a5a5d{/api,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.642 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4b8ac9f9{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.643 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@72a44ad5{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/06/01 16:24:19.927 Thread-4 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@451579e5{/metrics/json,null,AVAILABLE,@Spark}
+18/06/01 16:28:18.284 Thread-1 INFO AbstractConnector: Stopped Spark@2d6f1f64{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+18/06/01 20:34:59.562 dispatcher-event-loop-0 WARN HeartbeatReceiver: Removing executor driver with no recent heartbeats: 18520511 ms exceeds timeout 120000 ms
+18/06/01 20:34:59.563 dispatcher-event-loop-0 ERROR TaskSchedulerImpl: Lost executor driver on localhost: Executor heartbeat timed out after 18520511 ms
+18/06/01 20:34:59.684 dispatcher-event-loop-0 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0, localhost, executor driver): ExecutorLostFailure (executor driver exited caused by one of the running tasks) Reason: Executor heartbeat timed out after 18520511 ms
+18/06/01 20:34:59.696 dispatcher-event-loop-0 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+18/06/01 20:34:59.695 Thread-1 INFO AbstractConnector: Stopped Spark@3728dc9f{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/06/01 20:34:59.717 kill-executor-thread WARN SparkContext: Killing executors is not supported by current scheduler.
+18/06/01 20:34:59.752 Executor task launch worker for task 0 ERROR PythonRunner: Python worker exited unexpectedly (crashed)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:431)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:421)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:252)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:408)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:148)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+18/06/01 20:34:59.754 Executor task launch worker for task 0 ERROR PythonRunner: This may have been caused by a prior exception:
+java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.apache.spark.api.python.PythonRDD$.writeUTF(PythonRDD.scala:374)
+	at org.apache.spark.api.python.PythonRDD$.org$apache$spark$api$python$PythonRDD$$write$1(PythonRDD.scala:194)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:407)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:215)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1988)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:170)
+18/06/01 20:34:59.766 Executor task launch worker for task 0 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.apache.spark.api.python.PythonRDD$.writeUTF(PythonRDD.scala:374)
+	at org.apache.spark.api.python.PythonRDD$.org$apache$spark$api$python$PythonRDD$$write$1(PythonRDD.scala:194)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRDD$$anonfun$writeIteratorToStream$1.apply(PythonRDD.scala:204)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:204)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:407)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:215)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1988)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:170)

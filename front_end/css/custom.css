@@ -1,0 +1,85 @@
+#adiv
+{
+    width:100vw;
+    height:32vh;
+    padding-bottom:5px;
+    border-bottom: 2px solid black;
+}
+
+#allOtherDevices
+{
+	width:100vw;
+	height:55vh;
+	overflow: scroll;
+}
+.eachPlotDiv
+{
+	width:100vw;
+    height:32vh;
+    padding-bottom:5px;
+    border-bottom: 2px solid black;
+    display:none;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+
+.eachInfoDiv
+{
+	width:100vw;
+	height:5vh;
+	background-color: gray;
+	border-bottom: 1px dashed black;
+	display: none;
+	padding:2px;
+}
+
+.infoDivText
+{
+	color: black;
+	font-size: 13px;
+	font-weight: bolder;
+}
+/*.eachModalDiv
+{
+	position: absolute;
+	right:5px;
+	height: 32%;
+	width:30%;
+	opacity: 0.1;
+	background-color: black;
+}
+
+
+div.eachPlotDiv div.indDIV
+{
+    display:none;
+}
+div.eachPlotDiv:hover div.indDIV
+{
+	display: block;
+}*/
