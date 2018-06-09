@@ -149,11 +149,12 @@ def main():
 	grouped_by_key = repartitioned_lines.groupByKey()
 	avg = grouped_by_key.map(calc_average).sortByKey()
 	
-	#Way to accomplish: ((device id1,(basetime, mean_sd)),(device id1,(basetime, mean_sd)), (device id2,(basetime, mean_sd)) and so on)
-	#to (
+	#Convert from: ((device id1,(basetime, mean_sd)),(device id1,(basetime, mean_sd)), (device id2,(basetime, mean_sd)) and so on)
+	#to 
+	#[
 		#(device id1,[(basetime, mean_sd) , (basetime, mean_sd)]),
 		#(device id2,[(basetime, mean_sd),(basetime, mean_sd)]), and so on
-	#)
+	#]
 	output = avg.map(change_format).map(lambda (x, y): (x, [y])).reduceByKey(lambda p, q: p + q).collect()
 	write_data(output)
 
