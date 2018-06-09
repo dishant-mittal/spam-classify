@@ -42,7 +42,8 @@ if not os.path.isdir(OUTPUT_DIR):
 # Actual Code
 def parse_line(line):
 	"""
-	Processes each item in rdd and returns it in an updated format.
+	For all records in the rdd within 10 minutes interval, this method emits them with the same
+	value of timestamp.
 	@param line: Item in the rdd
 	@return: updated item in the rdd
 	"""
