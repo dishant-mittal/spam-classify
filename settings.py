@@ -14,7 +14,7 @@ COSINE_SIMILARITY = {
     'LARGEST_VALUE': 1487012700000L,
     'MAX_TIME': 1487048400000L - 30000L,
     'FILL_MISSING': -1.0,
-    'TOP_COUNT': 21,  # to just write the attributes calculated with respect to top 21 devices
+    'TOP_COUNT': 10,  # to just write the attributes calculated with respect to top 10 devices
     'DEVICE_IDS': [x for x in range(1, 74)],
     'DEVICE_IDS_ABSENT': [3, 32, 47, 48, 55, 59, 60]
 }
