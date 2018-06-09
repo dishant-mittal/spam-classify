@@ -2,8 +2,8 @@
 
 Development of this project involves:</br>
     * Collecting raw data from numerous devices installed in several buildings of University of Waterloo.</br>
-    * Crunching the raw timeseries motion sensor data (categorized with respect to devices).</br>
-    * Searching for the most similar users over a particular day/complete 5 months.</br>
+    * Crunching the raw timeseries motion sensor data
+    * Searching for the most similar users over a complete 5 months/particular day.</br>
 
 As an end result, the client can provide the device-id for a user and search for:</br>
     * The most similar users over complete fall and winter terms.</br>
