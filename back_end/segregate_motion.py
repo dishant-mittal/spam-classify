@@ -77,7 +77,7 @@ def drop_rows(line):
 
 def calc_average(key_val):
 	"""
-	finding average of across each device id, basetimestamp
+	finding average of motion list for each (device id, basetimestamp) key
 	@param key_val: Item in rdd
 	@return: updated item with average value of sd
 	"""
@@ -93,8 +93,6 @@ def calc_average(key_val):
 def change_format(key_val):
 	"""
 	This will convert the data to format which makes it easier for writing it to the file.
-	(A decent way to write the data to csv is to convert it into simple format
-	and then write it)
 	@param key_val: key value pair containing <device id, basetimestamps> and <mean standard deviations>
 	@return: key becomes device id and value becomes a tuple of basetimestamp and meansd
 	"""
