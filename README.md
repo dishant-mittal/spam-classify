@@ -1,6 +1,6 @@
 # IOT-Hack
 
-This development of this project involves:</br>
+Development of this project involves:</br>
     * Collecting raw data from numerous devices installed in several buildings of University of Waterloo.</br>
     * Crunching the raw timeseries motion sensor data (categorized with respect to devices).</br>
     * Searching for the most similar users over a particular day/complete 5 months.</br>
